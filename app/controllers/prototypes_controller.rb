@@ -39,9 +39,9 @@ class PrototypesController < ApplicationController
 
   def destroy
     if @prototype.destroy
-      redirect_to prototype_path
+      redirect_to root_path
     else
-      redirect_to prototype_path
+      redirect_to root_path
     end
   end
 
